@@ -12,18 +12,19 @@ function preload(){
 function setup(){
     canvas = createCanvas(800,600);
 
-    box1 = createSprite(100,600,200,40);
+    box1 = createSprite(100,600,190,40);
     box1.shapeColor = "green";
-    box2 = createSprite(300,600,200,40);
+    box2 = createSprite(300,600,190,40);
     box2.shapeColor = "red";
-    box3 = createSprite(500,600,200,40);
+    box3 = createSprite(500,600,190,40);
     box3.shapeColor = "blue";
-    box4 = createSprite(700,600,200,40);
+    box4 = createSprite(700,600,190,40);
     box4.shapeColor = "purple";
 
     player = createSprite(400,200,20,20);
     player.shapeColor = "white";
     player.velocityY = 5;
+    player.velocityX = 2;
     player.x = random(20,750);
 
 }
