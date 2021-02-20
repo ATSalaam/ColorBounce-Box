@@ -5,7 +5,6 @@ var player, box1, box2, box3, box4;
 function preload(){
     music = loadSound("music.mp3");
 
-    
 }
 
 
